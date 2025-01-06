@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NoName - Mobile App</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Yükleniyor...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0">NoName</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Ana Sayfa</a>
+                        <a href="#about" class="nav-item nav-link">Avantajlar</a>
+                        <a href="#feature" class="nav-item nav-link">Özellikler</a>
+                        <a href="#pricing" class="nav-item nav-link">Fiyatlandırma</a>
+                        <a href="#review" class="nav-item nav-link">Yorumlar</a>
+                        <a href="#contact" class="nav-item nav-link">İletişim</a>
+                    </div>
+                    <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Demo İste</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5">
+                        <div class="col-lg-8 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">Müşteri Bağlılığıyla Satışlarınızı Katlayın</h1>
+                            <p class="text-white pb-3 animated slideInDown">Modern teknolojilerle iş süreçlerinizi dönüştürün ve müşteri deneyimini zirveye taşıyın. Bağlılık uygulamamız, satışlarınızı artırmanın ötesinde, uzun vadeli büyüme için sağlam bir temel sunar. Yeni nesil mobil çözümlerimizle fark yaratın ve markanızla güçlü bir iz bırakın.</p>
+                            <a href="#about" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Avantajlar</a>
+                            <a href="" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">İletişime Geç</a>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="owl-carousel screenshot-carousel">
+                                <img class="img-fluid" src="img/screenshot-1.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-2.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-3.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-4.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="about">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Avantajlar</h5>
+                        <h1 class="mb-4">Mobil Uygulamanızla Başarıya Ulaşın</h1>
+                        <p class="mb-4">Modern müşteri sadakati çözümleriyle işletmenizin büyümesine güç katıyoruz. Uygulamamız, satışlarınızı artırmak, müşteri bağlılığını pekiştirmek ve işletmenizin dijital dönüşümünü hızlandırmak için tasarlandı.</p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex">
+                                    <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0">
+                                            %<span data-toggle="counter-up">30</span>
+                                        </h2>
+                                        <p class="text-primary-gradient mb-0">Satış Artışı</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="d-flex">
+                                    <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0">
+                                            %<span data-toggle="counter-up">100</span>
+                                        </h2>
+                                        <p class="text-secondary-gradient mb-0">Müşteri Memnuniyeti</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <a href="#feature" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Özellikler</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+<!-- Features Start -->
+<div class="container-xxl py-5" id="feature">
+    <div class="container py-5 px-lg-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">Uygulamanın Güçlü Yönleri</h5>
+            <h1 class="mb-5">Markanıza Değer Katacak Harika Özellikler</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Feature 1 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="feature-item bg-light rounded p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                        <i class="fa fa-cogs text-white fs-4"></i>
+                    </div>
+                    <h5 class="mb-3">Size Özel Yöntem</h5>
+                    <p class="m-0">İşletmenize özel kurallar belirleyin, müşteri bağlılığını artıran ödül sistemini kendiniz oluşturun.</p>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="feature-item bg-light rounded p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                        <i class="fa fa-users text-white fs-4"></i>
+                    </div>
+                    <h5 class="mb-3">Müşterilerinizi Tanıyın</h5>
+                    <p class="m-0">Müşterilerinizi daha iyi tanıyın ve onlarla uzun vadeli, güçlü ilişkiler kurun.</p>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="feature-item bg-light rounded p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                        <i class="fa fa-chart-line text-white fs-4"></i>
+                    </div>
+                    <h5 class="mb-3">Hareketleri İzleyin</h5>
+                    <p class="m-0">Müşterilerinizin işlemlerini ve yıldız hareketlerini kolayca takip edin.</p>
+                </div>
+            </div>
+            <!-- Feature 4 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="feature-item bg-light rounded p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                        <i class="fa fa-store text-white fs-4"></i>
+                    </div>
+                    <h5 class="mb-3">Çoklu Şube Desteği</h5>
+                    <p class="m-0">Birden fazla şubeniz mi var? Tüm şubelerinizi tek bir platformdan yönetin.</p>
+                </div>
+            </div>
+            <!-- Feature 5 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="feature-item bg-light rounded p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                        <i class="fa fa-sync text-white fs-4"></i>
+                    </div>
+                    <h5 class="mb-3">Sürekli Destek ve Güncellemeler</h5>
+                    <p class="m-0">Her zaman güncel kalın! Yazılım güncellemeleri ve teknik destek ile güvendesiniz.</p>
+                </div>
+            </div>
+            <!-- Feature 6 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="feature-item bg-light rounded p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                        <i class="fa fa-infinity text-white fs-4"></i>
+                    </div>
+                    <h5 class="mb-3">Sınırsız Müşteri Desteği</h5>
+                    <p class="m-0">Kayıt sınırı olmadan dilediğiniz kadar müşteri ile çalışın.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+
+
+
+        <!-- Screenshot Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Tasarım</h5>
+                        <h1 class="mb-4">Kullanıcı Dostu Arayüz ve Kolay Kullanım</h1>
+                        <p class="mb-4">Bağlılık uygulamamız, işletmenizin ihtiyaçlarını karşılayan yenilikçi özelliklerle donatılmıştır.</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>QR Kod ile Hızlı Kullanım</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Müşterilere Kolay Erişim</p>
+                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Kapsamlı Kullanım Verileri</p>
+                        <a href="#kurulum" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Kolay Kurulum</a>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="owl-carousel screenshot-carousel">
+                            <img class="img-fluid" src="img/screenshot-1.png" alt="">
+                            <img class="img-fluid" src="img/screenshot-2.png" alt="">
+                            <img class="img-fluid" src="img/screenshot-3.png" alt="">
+                            <img class="img-fluid" src="img/screenshot-4.png" alt="">
+                            <img class="img-fluid" src="img/screenshot-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Screenshot End -->
+
+
+<!-- Process Start -->
+<div class="container-xxl py-5" id="kurulum">
+    <div class="container py-5 px-lg-5">
+        <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">Hemen Başlayın!</h5>
+            <h1 class="mb-5">3 Adımda Hazır</h1>
+        </div>
+        <div class="row gy-5 gx-4 justify-content-center">
+            <!-- Step 1 -->
+            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                        <i class="fa fa-cog fa-3x text-white"></i>
+                    </div>
+                    <h5 class="mt-4 mb-3">İhtiyaçlarınızı Öğrenelim</h5>
+                    <p class="mb-0">Hedeflerinizi ve müşterilerinizi anlayarak işletmenizin ihtiyaçlarına en uygun mobil uygulama çözümlerini geliştirelim.</p>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                        <i class="fa fa-address-card fa-3x text-white"></i>
+                    </div>
+                    <h5 class="mt-4 mb-3">Markanıza Özel Uygulama</h5>
+                    <p class="mb-0">Logonuz, renk paletiniz ve işletmenize özel çözümlerle markanızı yansıtan, güçlü bir dijital sadakat uygulaması tasarlıyoruz.</p>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                        <i class="fa fa-check fa-3x text-white"></i>
+                    </div>
+                    <h5 class="mt-4 mb-3">Kullanıma Başlayın</h5>
+                    <p class="mb-0">Hazırladığımız uygulama ile müşterilerinizi ödüllendirin ve bağlılıklarını artırarak işletmenizi büyütün.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Process End -->
+
+
+
+<!-- Download Start -->
+<div class="container-xxl py-5">
+    <div class="container py-5 px-lg-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="img/about.png" alt="App Showcase">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h5 class="text-primary-gradient fw-medium">En Son Teknoloji</h5>
+                <h1 class="mb-4">Her Zaman Güncel, Her Zaman Performanslı</h1>
+                <p class="mb-4">Her müşterimize özel olarak tasarlanan uygulamalar, App Store ve Google Play standartlarına uygun şekilde geliştirilir. Sürekli iyileştirme ve performans optimizasyonu ile uygulamanız her zaman en üst seviyede kalır.</p>
+                <p class="mb-4">Son teknolojileri yakından takip ediyor ve işletmenizin ihtiyaçlarına göre uygulamanızı düzenli olarak güncelliyoruz. Güvenilir altyapımız sayesinde kesintisiz bir deneyim sunuyoruz.</p>
+                <div class="row g-4">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="d-flex bg-primary-gradient rounded py-3 px-4">
+                            <i class="fab fa-apple fa-3x text-white flex-shrink-0"></i>
+                            <div class="ms-3">
+                                <p class="text-white mb-0">Güncellemelerle</p>
+                                <h5 class="text-white mb-0">App Store'da</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="d-flex bg-secondary-gradient rounded py-3 px-4">
+                            <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
+                            <div class="ms-3">
+                                <p class="text-white mb-0">Güncellemelerle</p>
+                                <h5 class="text-white mb-0">Play Store'da</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Download End -->
+
+
+        <!-- Pricing Start -->
+        <div class="container-xxl py-5" id="pricing">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Pricing Plan</h5>
+                    <h1 class="mb-5">Choose Your Plan</h1>
+                </div>
+                <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary-gradient rounded-pill mb-5">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="pill" href="#tab-1">Monthly</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" href="#tab-2">Yearly</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content text-start">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>14.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded border">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>24.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-secondary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>34.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>114.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded border">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>124.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="bg-light rounded">
+                                        <div class="border-bottom p-4 mb-4">
+                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
+                                            <span>Powerful & Awesome Features</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>134.99<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing End -->
+
+
+<!-- Testimonial Start -->
+<div class="container-xxl py-5" id="review">
+    <div class="container py-5 px-lg-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="text-primary-gradient fw-medium">Referanslar</h5>
+            <h1 class="mb-5">Müşterilerimiz Ne Diyor?</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                    <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-1.jpg" style="width: 85px; height: 85px;">
+                    <div class="ms-4">
+                        <h5 class="mb-1">Buket Yılmaz</h5>
+                        <p class="mb-1">Kafe Sahibi</p>
+                        <div>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                        </div>
+                    </div>
+                </div>
+                <p class="mb-0">Uygulama sayesinde müşterilerimize sunduğumuz kampanyalar daha etkili oldu. Herkes QR kod sistemiyle hızlıca işlem yapabiliyor. İşlerimizi çok kolaylaştırdı.</p>
+            </div>
+            <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                    <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-2.jpg" style="width: 85px; height: 85px;">
+                    <div class="ms-4">
+                        <h5 class="mb-1">Çağdaş Yıldırım</h5>
+                        <p class="mb-1">Fresco Makarna</p>
+                        <div>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                        </div>
+                    </div>
+                </div>
+                <p class="mb-0">Bizim gibi küçük işletmeler için büyük bir fark yarattı. Sadakat sistemi müşterilerimizin daha sık gelmesini sağladı. Çok memnunuz.</p>
+            </div>
+            <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                    <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-3.jpg" style="width: 85px; height: 85px;">
+                    <div class="ms-4">
+                        <h5 class="mb-1">Mehmet Karaca</h5>
+                        <p class="mb-1">Market Sahibi</p>
+                        <div>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                        </div>
+                    </div>
+                </div>
+                <p class="mb-0">Müşterilerimizin davranışlarını analiz edip onlara özel kampanyalar sunmak işimizi bir üst seviyeye taşıdı. QR kod ve mobil uygulama harika bir uyum sağlıyor.</p>
+            </div>
+            <div class="testimonial-item rounded p-4">
+                <div class="d-flex align-items-center mb-4">
+                    <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-4.jpg" style="width: 85px; height: 85px;">
+                    <div class="ms-4">
+                        <h5 class="mb-1">Ezgi Arslan</h5>
+                        <p class="mb-1">Giyim Mağazası Sahibi</p>
+                        <div>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                            <small class="fa fa-star text-warning"></small>
+                        </div>
+                    </div>
+                </div>
+                <p class="mb-0">Müşteri memnuniyetimiz artarken, satışlarımızda da belirgin bir yükselme oldu. Uygulama gerçekten bizim için çok değerli bir araç oldu.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">İletişime Geçin</h5>
+                    <h1 class="mb-4">Mobil Uygulamanıza İlk Adımı Atalım!</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <p class="text-center mb-4">Uygulamanızla ilgili tüm detayları konuşmak, sorularınıza yanıt vermek ve işletmenize en uygun çözümleri sunmak için bize ulaşın. Formu doldurun, biz sizi arayalım!</a>.</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Firma Adı">
+                                            <label for="name">Firma Adı</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Cep Telefonu">
+                                            <label for="email">Cep Telefonu</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                            <label for="message">Mesaj</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Hemen Görüşelim!</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Adres</h4>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Folkart, İzmir</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Hızlı Bağlantılar</h4>
+                        <a class="btn btn-link" href="">Hakkımızda</a>
+                        <a class="btn btn-link" href="">İletişim</a>
+                        <a class="btn btn-link" href="">SSS</a>
+                        <a class="btn btn-link" href="">Hizmetlerimiz</a>
+                        <a class="btn btn-link" href="">Demo Talebi</a>
+                    </div>                    
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Popüler Bağlantılar</h4>
+                        <a class="btn btn-link" href="">Uygulama Özellikleri</a>
+                        <a class="btn btn-link" href="">Fiyatlandırma</a>
+                        <a class="btn btn-link" href="">Referanslarımız</a>
+                        <a class="btn btn-link" href="">Blog</a>
+                        <a class="btn btn-link" href="">Kullanıcı Yorumları</a>
+                    </div>                    
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Bize Ulaşın</h4>
+                        <p>Uygulamamızın faydalarını keşfetmek ve daha fazla bilgi almak için telefon numaranızı bırakın, size hemen ulaşalım!</p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Telefon Numaranız" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
+                                <i class="fa fa-paper-plane text-primary-gradient fs-4"></i>
+                            </button>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">NoName</a>, Tüm Hakları Saklıdır
+                        </div>
+                        <!-- <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
